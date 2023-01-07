@@ -1,3 +1,5 @@
+# 1/7(토) 타우리 발만 담궈보자
+
 # Tauri + Vanilla
 
 This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
