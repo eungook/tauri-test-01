@@ -17,14 +17,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "test-01",\
+        "name": "tauri-test-01",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["test-01", ["workspace:."]]\
+      ["tauri-test-01", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -137,11 +137,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["test-01", [\
+      ["tauri-test-01", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["test-01", "workspace:."],\
+            ["tauri-test-01", "workspace:."],\
             ["@tauri-apps/cli", "npm:1.2.2"]\
           ],\
           "linkType": "SOFT"\

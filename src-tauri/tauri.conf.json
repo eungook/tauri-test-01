@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "test-01",
+    "productName": "tauri-test-01",
     "version": "0.0.0"
   },
   "tauri": {
@@ -62,7 +62,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "test-01",
+        "title": "tauri-test-01",
         "width": 800
       }
     ]

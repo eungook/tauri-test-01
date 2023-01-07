@@ -106,9 +106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"test-01@workspace:.":
+"tauri-test-01@workspace:.":
   version: 0.0.0-use.local
-  resolution: "test-01@workspace:."
+  resolution: "tauri-test-01@workspace:."
   dependencies:
     "@tauri-apps/cli": ^1.2.2
   languageName: unknown
