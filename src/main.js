@@ -24,3 +24,5 @@ function onclickFoo() {
     message: '-_-?',
   });
 }
+
+window.onclickFoo = onclickFoo;
