@@ -15,3 +15,12 @@ window.addEventListener('DOMContentLoaded', () => {
     .querySelector('#greet-button')
     .addEventListener('click', () => greet());
 });
+
+function onclickFoo() {
+  alert('-_-?');
+
+  console.log({
+    where: 'onclickFoo()',
+    message: '-_-?',
+  });
+}
